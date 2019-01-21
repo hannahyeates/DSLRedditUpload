@@ -30,10 +30,10 @@ logger.addHandler(handler)
 # on the github readme.  The user agent is a string that gives reddit basic
 # information on what you're doing.
 
-
-reddit = praw.Reddit(client_id='rk43VVgBuwgrVQ',
-                     client_secret='25yJdpmb5iJ9OjDZ6jtvW3eNjFc',
-                     user_agent='uwDashboard by /u/gauhannah')
+#INSERT YOUR INFO HERE
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='')
 
 # This is just printing out whether you're in read only mode or not
 print("Read Only?")

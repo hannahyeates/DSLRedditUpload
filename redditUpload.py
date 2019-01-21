@@ -24,13 +24,13 @@ from updateMaster import addDataToMaster
 # write tables['kind'] where kind is one of subreddit, tag, user, thread, comment, moderates
 tables = utils.freshDB()
 
-#connection to reddit that gives read access
-reddit = praw.Reddit(client_id='rk43VVgBuwgrVQ',
-                     client_secret='25yJdpmb5iJ9OjDZ6jtvW3eNjFc',
-                     user_agent='uwDashboard by /u/gauhannah')
+#connection to reddit that gives read access, add your information before running
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
+                     user_agent='')
 
 # server connection - change user and password to your own username and password before running
-conn = sql.connect(host='lg-research-1.uwaterloo.ca', user='hvgautreau', password='Hannah2017', db='Reddit', charset="utf8")
+conn = sql.connect(host='', user='', password='', db='', charset="utf8")
 
 
 # ATTN: List any subreddits you want to pull here.
